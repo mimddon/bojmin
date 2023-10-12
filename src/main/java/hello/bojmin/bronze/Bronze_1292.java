@@ -19,13 +19,17 @@ public class Bronze_1292 {
         int[] test = new int[b];
 
         for (int i = 1; i <= b; i++) {
+
             for (int l = 0; l < i; l++) {
+
                 if (point >= b) {
                     break;
                 }
+
                 test[point] = i;
                 point++;
             }
+
         }
         for (int k = a; k <= b; k++) {
             sum = sum + test[k-1];
