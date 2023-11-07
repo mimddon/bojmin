@@ -19,5 +19,10 @@ public class Bronze_2869 {
         }
 
         System.out.println(days);
+
+        //Ax - B(x-1) >= V
+        //Ax - Bx - B >= V
+        // x >= V - B / (A - B)
+
     }
 }
